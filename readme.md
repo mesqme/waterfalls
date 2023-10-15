@@ -14,3 +14,5 @@ npm run dev
 # Build for production in the dist/ directory
 npm run build
 ```
+
+(https://github.com/mesqme/waterfalls/blob/main/waterfalls.JPG)
