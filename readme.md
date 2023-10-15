@@ -1,4 +1,4 @@
-# Can Playground
+# Waterfall Threejs Journey Challenge
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
