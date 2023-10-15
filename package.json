@@ -1,0 +1,32 @@
+{
+  "name": "can-playground",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.0",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@react-spring/three": "^9.7.3",
+    "@react-three/drei": "^9.86.1",
+    "@react-three/fiber": "^8.13.0",
+    "@react-three/rapier": "1.0",
+    "@types/three": "^0.153.0",
+    "dat.gui": "^0.7.9",
+    "leva": "^0.9.35",
+    "lil-gui": "^0.18.2",
+    "r3f-perf": "^7.1.2",
+    "react": "18.2",
+    "react-dom": "18.2",
+    "three": "^0.153.0",
+    "vercel": "^32.4.1",
+    "vite-plugin-glsl": "^1.1.2",
+    "zustand": "4.3"
+  }
+}

@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #272727;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+  }
+  
+  #root {
+    overflow: auto;
+  }
+  
+  body {
+    position: fixed;
+    overflow: hidden;
+    overscroll-behavior-y: none;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial,
+      sans-serif;
+    color: rgb(0, 140, 255);
+    -webkit-font-smoothing: antialiased;
+    cursor: url('./cursor_teture.png') 39 39, auto;
+  }
+  
+  .main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff8de;
+    overflow: hidden;
+  }
+  
+  span.header {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    display: inline-block;
+    width: 500px;
+    transform: translate3d(0, -50%, 0);
+    font-size: 5em;
+    line-height: 0.9em;
+    pointer-events: none;
+    top: 130px;
+    left: 50px;
+    opacity: 0.8;
+  }
+  
+  div.header-major > span {
+    font-size: 15em;
+  }
+  
+  a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: inherit;
+    position: absolute;
+    display: inline;
+    text-decoration: none;
+    z-index: 1;
+  }
+
+  a.bottom-left-1 {
+    bottom: 60px;
+    left: 60px;
+  }
+
+  a.bottom-left-2 {
+    bottom: 40px;
+    left: 60px;
+  }
+  
+  canvas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .grid .item {
+    position: relative;
+    width: 50vw;
+    height: 50vw;
+    background: #eee;
+  }
+  
+  .scroll-container {
+    position: absolute;
+    overflow: auto;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    font-size: 20em;
+    font-weight: 800;
+    line-height: 0.9em;
+  }
+  
