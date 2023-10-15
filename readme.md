@@ -15,4 +15,4 @@ npm run dev
 npm run build
 ```
 
-(https://github.com/mesqme/waterfalls/blob/main/waterfalls.JPG)
+!(https://github.com/mesqme/waterfalls/blob/main/waterfalls.JPG)
