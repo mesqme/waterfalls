@@ -31,7 +31,7 @@
       sans-serif;
     color: rgb(0, 140, 255);
     -webkit-font-smoothing: antialiased;
-    cursor: url('./cursor_teture.png') 39 39, auto;
+    cursor: url('https://raw.githubusercontent.com/mesqme/waterfalls/main/public/cursor_texture.png') 39 39, auto;
   }
   
   .main {
